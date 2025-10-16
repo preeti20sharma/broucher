@@ -9378,14 +9378,13 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 .hero {
   position: relative;
   height: 100vh;
-  background: url('../img/_Facebook Cover.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: right;
   text-align: center;
   color: white;
   padding: 2rem;
-  background-position: top;
+  background-position: top !important;
 
 }
 @media(max-width:768px)
