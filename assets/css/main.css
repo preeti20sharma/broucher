@@ -9385,14 +9385,17 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   color: white;
   padding: 2rem;
   background-position: top !important;
-
+  /* background-position: center;  */
+  background-size:  cover !important; 
+  background-repeat: no-repeat !important;
 }
 @media(max-width:768px)
 {
   .hero{
-  background-position: left;
-    align-items: end;
-
+        background-position: center !important;
+        align-items: end;
+        background: url(../img/alok.jpg) !important;
+        background-size: cover !important;
   }
 }
 
@@ -9512,6 +9515,7 @@ body {
     text-align: center;
     color: #fff;
     z-index: 2; /* Ensure the content is on top of the overlay */
+   
 }
 
 .hero-title {
@@ -9521,9 +9525,13 @@ body {
 }
 @media (max-width:768px){
   .hero-title{
-     font-size: 1.5em;
+             font-size: 29px;
     margin-bottom: 8px;
   }
+  .hero-title {
+   padding-bottom: 45px !important;
+}
+   
 }
 
 .hero-subtitle {
